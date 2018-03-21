@@ -11,6 +11,8 @@ const passport       = require("passport");
 
 const app            = express();
 
+const mail = require('./routes/mail');
+
 
 // Mongoose configuration
 const mongoose = require("mongoose");
@@ -47,6 +49,7 @@ require("./config/passport")(passport,app);
 
 
 app.use('/api', authController);
+app.use('/mail', mail);
 app.all('/*', (req, res) => {
   res.sendFile(__dirname + '/public/index.html');
 });
