@@ -1,0 +1,17 @@
+.right_bar_center{
+    display: block;
+    margin: 0 auto;
+    border-radius:7px;
+}
+
+.bliss-zoom{
+    overflow: hidden;
+}
+
+.bliss-zoom img{
+    transition:all 1s ease;
+}
+
+.bliss-zoom img:hover{
+    transform: scale(1.3);
+}

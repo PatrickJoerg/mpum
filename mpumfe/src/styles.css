@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+padding-top: 56px;
+background-color:  white
+}
+.background1{
+    background-color: #c0d1ed
+}
+p {
+    text-align: justify;
+}

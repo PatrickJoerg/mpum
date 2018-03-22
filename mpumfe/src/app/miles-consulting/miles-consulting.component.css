@@ -1,0 +1,7 @@
+.float_left {
+    float: left;
+    padding-right: 10px;
+}
+.clear_floats {
+    clear: left;
+}
