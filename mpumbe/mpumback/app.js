@@ -46,6 +46,8 @@ app.use(session({
   cookie: { httpOnly: true, maxAge: 2419200000 }
 }));
 
+
+
 // Passport configuration
 require("./config/passport")(passport,app);
 
